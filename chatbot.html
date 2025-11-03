@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {}
+    </style>
+</head>
+
+<body>
+
+    <script src="./chatbot.js"></script>
+    <!-- <script src="https://sharif.avidconnect.ir/chatbot/chatbot.js"></script> -->
+    <script>
+        // ChatbotWidget.init({
+        //     apiUrl: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash/:generateContent?key=AIzaSyAu4BCfPILhnmXw4JEKOpGNYbzDGJLw1MU",
+        //     apiKey: "123123412fdaasd",
+        //     title: "پشتیبان استورم",
+        //     botInitialMessage: "سلام.دوست من !!!",
+        //     colors: { primary: "#e00000", secondary: "#f1f1f1", userMessage: "#207e5f", text: "#000000", background: "#ffffff" },
+        //     title_pr: `مقاله نویسی`
+        // });
+
+        ChatbotWidget.init({
+            apiUrl: "https://work.avidflow.ir/webhook/5e56a263-3a40-44bd-bc9d-1cfb3bc2a87d/chat", apiKey: "123456", title: "دستیار هوشمند مالیاتی", botInitialMessage: `سلام! من آماده کمک به شما هستم.
+ سوال یا درخواست خود را مطرح کنید تا بتوانم به بهترین شکل ممکن به شما کمک کنم.
+`, colors: { primary: "#2B57AE", secondary: "#f1f1f1", userMessage: "#dcf8c6", text: "#333333", background: "#ffffff" },
+            logoUrl: "https://www.intamedia.ir/Portals/0/Images/logo.png?ver=JEID18zC73nwLklmRMVv-A%3d%3d",
+            serviceTitle: 'سازمان امور مالیاتی کشور'
+        });
+    </script>
+</body>
+
+</html>
